@@ -28,7 +28,7 @@ rule amylogram:
         "samples/{sample}.faa"
     output:
         temp("results/{sample}_amylogram.csv")
-    threads: 3
+    threads: 6
     script:
         "scripts/amylogram.R"
 
