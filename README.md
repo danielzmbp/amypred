@@ -2,9 +2,10 @@
 Snakemake pipeline to perform amyloid prediction on a set of proteins in fasta format.
 ## Usage
 Put the target files with the extension ".faa" in the folder samples and run:
-`snakemake --use-conda -j <cores>`
+`snakemake -j <cores>`
 ## Requirements
 - Snakemake
+- R
 - [AmyloGram](https://github.com/michbur/AmyloGram)
 - [APPNN](https://cran.r-project.org/web/packages/appnn/index.html)
 ## Output
